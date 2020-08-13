@@ -1,7 +1,13 @@
 package com.banking.TestCases;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -37,7 +43,7 @@ public class BaseClass {
 			System.setProperty("webdriver.chrome.driver", readConfig.getChromepath());
 
 			driver = new ChromeDriver(options);
-			
+
 			logger.info("Chrome Browser is in Use!");
 		}
 
@@ -46,7 +52,7 @@ public class BaseClass {
 			System.setProperty("webdriver.gecko.driver", readConfig.getFirefoxpath());
 
 			driver = new FirefoxDriver();
-			
+
 			logger.info("Firefox Browser is in Use!");
 		}
 
@@ -55,7 +61,7 @@ public class BaseClass {
 			System.setProperty("webdriver.ie.driver", readConfig.getIEbrowserpath());
 
 			driver = new FirefoxDriver();
-			
+
 			logger.info("IE Browser is in Use!");
 		}
 
@@ -64,6 +70,15 @@ public class BaseClass {
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
+	}
+
+	public void captureScreen(WebDriver driver, String tname) throws IOException {
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
+		FileUtils.copyFile(source, target);
+		System.out.println("Screenshots Taken");
+
 	}
 
 }

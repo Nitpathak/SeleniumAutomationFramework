@@ -24,6 +24,9 @@ public class LoginPage {
 	@FindBy(xpath = "//input[@name='btnLogin']")
 	WebElement btnLogin;
 
+	@FindBy(xpath = "/html/body/div[3]/div/ul/li[15]/a")
+	WebElement btnLogout;
+
 	public void setuserName(String uname) throws InterruptedException
 
 	{
@@ -39,6 +42,13 @@ public class LoginPage {
 	}
 
 	public void clickSubmit() throws InterruptedException
+
+	{
+		Thread.sleep(2000);
+		btnLogin.click();
+	}
+
+	public void clickLogout() throws InterruptedException
 
 	{
 		Thread.sleep(2000);
