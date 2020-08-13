@@ -1,0 +1,15 @@
+2020-08-13 12:21:08,599 [main] INFO ebanking - Chrome Browser is in Use!
+2020-08-13 12:21:11,235 [main] INFO ebanking - Open Base Url
+2020-08-13 12:21:14,558 [main] INFO ebanking - Entered User Name
+2020-08-13 12:24:10,864 [main] INFO ebanking - Chrome Browser is in Use!
+2020-08-13 12:24:14,949 [main] INFO ebanking - Open Base Url
+2020-08-13 12:24:18,193 [main] INFO ebanking - Entered User Name
+2020-08-13 12:24:21,270 [main] INFO ebanking - Entered Password
+2020-08-13 12:24:26,081 [main] INFO ebanking - Click on the Submit button
+2020-08-13 12:24:26,088 [main] INFO ebanking - Login Test Pass Successfully
+2020-08-13 12:29:36,634 [main] INFO ebanking - Chrome Browser is in Use!
+2020-08-13 12:29:40,200 [main] INFO ebanking - Open Base Url
+2020-08-13 12:29:43,406 [main] INFO ebanking - Entered User Name
+2020-08-13 12:29:46,471 [main] INFO ebanking - Entered Password
+2020-08-13 12:29:51,863 [main] INFO ebanking - Click on the Submit button
+2020-08-13 12:29:51,869 [main] INFO ebanking - Login Test Pass Successfully

@@ -1,0 +1,25 @@
+2020-08-13 09:44:45 INFO  ebanking:13 - Open Base Url
+2020-08-13 09:44:49 INFO  ebanking:18 - Entered User Name
+2020-08-13 09:44:52 INFO  ebanking:20 - Entered Password
+2020-08-13 09:44:54 INFO  ebanking:36 - Login Test Failed
+2020-08-13 10:04:17 INFO  ebanking:13 - Open Base Url
+2020-08-13 10:04:20 INFO  ebanking:18 - Entered User Name
+2020-08-13 10:04:23 INFO  ebanking:20 - Entered Password
+2020-08-13 10:04:28 INFO  ebanking:30 - Login Test Pass
+2020-08-13 10:55:57 INFO  ebanking:14 - Open Base Url
+2020-08-13 10:56:00 INFO  ebanking:19 - Entered User Name
+2020-08-13 10:56:03 INFO  ebanking:22 - Entered Password
+2020-08-13 10:56:09 INFO  ebanking:25 - Click on the Submit button
+2020-08-13 10:56:09 INFO  ebanking:31 - Login Test Pass Successfully
+2020-08-13 11:26:09 INFO  ebanking:14 - Open Base Url
+2020-08-13 11:26:12 INFO  ebanking:19 - Entered User Name
+2020-08-13 11:26:15 INFO  ebanking:22 - Entered Password
+2020-08-13 11:26:21 INFO  ebanking:25 - Click on the Submit button
+2020-08-13 11:26:21 INFO  ebanking:31 - Login Test Pass Successfully
+2020-08-13 11:30:23 INFO  ebanking:44 - Chrome Browser is in Use!
+2020-08-13 11:30:24 INFO  ebanking:44 - Chrome Browser is in Use!
+2020-08-13 11:30:28 INFO  ebanking:14 - Open Base Url
+2020-08-13 11:30:31 INFO  ebanking:19 - Entered User Name
+2020-08-13 11:30:34 INFO  ebanking:22 - Entered Password
+2020-08-13 11:30:39 INFO  ebanking:25 - Click on the Submit button
+2020-08-13 11:30:39 INFO  ebanking:31 - Login Test Pass Successfully

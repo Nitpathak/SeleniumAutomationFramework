@@ -1,0 +1,6 @@
+2020-08-13 13:11:09 INFO  ebanking:41 - Chrome Browser is in Use!
+2020-08-13 13:11:11 INFO  ebanking:14 - Open Base Url
+2020-08-13 13:11:14 INFO  ebanking:19 - Entered User Name
+2020-08-13 13:11:17 INFO  ebanking:22 - Entered Password
+2020-08-13 13:11:23 INFO  ebanking:25 - Click on the Submit button
+2020-08-13 13:11:23 INFO  ebanking:31 - Login Test Pass Successfully
